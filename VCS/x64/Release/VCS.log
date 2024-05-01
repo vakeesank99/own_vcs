@@ -1,0 +1,22 @@
+﻿  Main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Dev\VCS\VCS\Main.cpp(9,7): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Dev\VCS\VCS\Main.cpp(9,19): error C2039: 'current_path': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iostream(18,1):
+  see declaration of 'std'
+  
+C:\Dev\VCS\VCS\Main.cpp(9,37): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Dev\VCS\VCS\Main.cpp(9,49): error C2039: 'temp_directory_path': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iostream(18,1):
+  see declaration of 'std'
+  
+C:\Dev\VCS\VCS\Main.cpp(9,49): error C3861: 'temp_directory_path': identifier not found
+C:\Dev\VCS\VCS\Main.cpp(9,19): error C3861: 'current_path': identifier not found
+C:\Dev\VCS\VCS\Main.cpp(13,7): error C2039: 'vector': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iostream(18,1):
+  see declaration of 'std'
+  
+C:\Dev\VCS\VCS\Main.cpp(13,7): error C2065: 'vector': undeclared identifier
+C:\Dev\VCS\VCS\Main.cpp(13,19): error C2275: 'std::string': expected an expression instead of a type
+C:\Dev\VCS\VCS\Main.cpp(13,27): error C3861: 'args': identifier not found
+C:\Dev\VCS\VCS\Main.cpp(19,6): error C2065: 'args': undeclared identifier
